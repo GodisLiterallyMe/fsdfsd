@@ -1,0 +1,41 @@
+ 
+ body, h1,h2,h3,h4,h5,p,a {
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+    font-size: 20px;
+ }
+ 
+ .a {
+    color: aqua;
+ }
+
+ .header_container {
+    width: 100%;
+    margin: 5px;
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+ }
+
+ .header_container {
+    max-width: 1200px;
+    background-color: rgb(30, 90, 50);
+
+    display: flex;
+    flex: 1;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .menu_items {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: flex-start;
+ }
